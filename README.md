@@ -11,5 +11,5 @@
 2. Since this code runs a selenium web driver to scrape the site we need to run a virtual display while hosting the code on *[Pythonanywhere](https://www.pythonanywhere.com)*    using the command `xvfb-run -a python3.6 /home/myusername/myfolder/myscript.py` *([more on](https://help.pythonanywhere.com/pages/selenium/))*
 3. To run the code at intervals *[link](https://help.pythonanywhere.com/pages/ScheduledTasks/)*
 
-##future updates
+## future updates
 I am working on how to get the pdf file sent to ones *whatsapp*.
