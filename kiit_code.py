@@ -22,7 +22,7 @@ class scrape:
 
     #----------------------------------Starting Selenium to login---------------------------------
     def start_sel(self):
-        self.driver=webdriver.Firefox(executable_path="D:\python\Automation proj\selenium_driver\geckodriver.exe")
+        self.driver=webdriver.Firefox(executable_path="Your geko driver location/path") # For eg:-D:\python\Automation proj\selenium_driver\geckodriver.exe
         self.driver.get("https://kiittnp.in/ea19b38134d463acc8c7b66744a481847ab4b/login.html")
 
         self.wait=WebDriverWait(self.driver,500)
