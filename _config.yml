@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: Kiit tnp scraper
+plugins:
+  - jekyll-seo-tag
