@@ -15,13 +15,13 @@
 4. Put the sand box phone number in the **tnp_whatsapp.py** file at the mentioned line.
 
 ## Where to run the code?
-### On windows:-
+- ### On windows:-
 1. Download the zipped code files extract it on your local machine.
 2. pip install all the required modules from above.
 3. Follow the setup procedure and you are good to go.
 4. Open terminal and run `python Scrape_tnp.py`. 
 5. Leave the rest to the bot.
-### Better Way:-
+- ### Better Way:-
 1. In order to run the code you need to host the code on some code hosting platforms like *[Pythonanywhere](https://www.pythonanywhere.com)*
 3. Create an account, upload all the files.
 2. Since this code runs a selenium web driver to scrape the site we need to run a virtual display while hosting the code on *[Pythonanywhere](https://www.pythonanywhere.com)*    using the command `xvfb-run -a python3.6 /home/myusername/myfolder/myscript.py` *([more on](https://help.pythonanywhere.com/pages/selenium/))*
