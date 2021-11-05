@@ -22,7 +22,7 @@
 4. Open terminal and run `python Scrape_tnp.py`. 
 5. Leave the rest to the bot.
 - ### Better Way:-
-1. In order to run the code you need to host the code on some code hosting platforms like *[Pythonanywhere](https://www.pythonanywhere.com)*
+1. In order to run the code you need to host the code on some cloud platforms like *[Pythonanywhere](https://www.pythonanywhere.com)*
 3. Create an account, upload all the files.
 2. Since this code runs a selenium web driver to scrape the site we need to run a virtual display while hosting the code on *[Pythonanywhere](https://www.pythonanywhere.com)*    using the command `xvfb-run -a python3.6 /home/myusername/myfolder/myscript.py` *([more on](https://help.pythonanywhere.com/pages/selenium/))*
 3. To run the code at intervals *[link](https://help.pythonanywhere.com/pages/ScheduledTasks/)*
